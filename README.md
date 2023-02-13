@@ -7,8 +7,8 @@ To start server:
 1. npm install - downloads all node modules 
 2. npm start - starts server, http://localhost:4000/
 
- 
-SAMPLE CALL: POST HTTP REQUEST : 
+How to REQUEST data: 
+SAMPLE CALL TO POST HTTP REQUEST : 
 POST http://localhost:4000/addFav
 Content-Type: application/json
 
@@ -31,7 +31,7 @@ Content-Type: application/json
 "video": false,
 "vote_average": 8.5,
 "vote_count": 15032
-
+}
 
 
 How to RECEIVE data: 
