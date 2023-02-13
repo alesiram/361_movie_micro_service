@@ -7,8 +7,8 @@ To start server:
 1. npm install - downloads all node modules 
 2. npm start - starts server, http://localhost:4000/
 
-How to REQUEST data: 
-SAMPLE CALL TO POST HTTP REQUEST : 
+How to REQUEST data: Data should be sent via a POST HTTP REQUEST:
+//
 POST http://localhost:4000/addFav
 Content-Type: application/json
 
@@ -32,13 +32,13 @@ Content-Type: application/json
 "vote_average": 8.5,
 "vote_count": 15032
 }
+//
 
-
-How to RECEIVE data: 
+How to RECEIVE data: Data should be made via a GET HTTP. 
 To get all saved movies in fav DB
-Make GET HTTP request to -->
-<!-- http://localhost:4000/getAllFavs  -->
+Make GET HTTP request to:
+ http://localhost:4000/getAllFavs 
 
 To get count of all saved movies
 Make GET HTTP request to
-<!-- http://localhost:4000/getFavsCount -->
+http://localhost:4000/getFavsCount
