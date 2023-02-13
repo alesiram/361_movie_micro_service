@@ -38,7 +38,7 @@ Content-Type: application/json
 } -->
 
 
-# How to RECEIVE data: 
+How to RECEIVE data: 
 To get all saved movies in fav DB
 Make GET HTTP request to -->
 <!-- http://localhost:4000/getAllFavs  -->
